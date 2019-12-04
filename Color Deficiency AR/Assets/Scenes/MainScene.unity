@@ -718,7 +718,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BackGroundColor: {r: 0.9607843, g: 0.70980394, b: 0.39719597, a: 0.2784314}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -763,8 +763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816b289ef451e094f9ae174fb4cf8db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UseCustomMaterial: 0
-  m_CustomMaterial: {fileID: 0}
+  m_UseCustomMaterial: 1
+  m_CustomMaterial: {fileID: 2100000, guid: a74e88492fa30e540a88a0a28e6dd93c, type: 2}
 --- !u!114 &2050196205
 MonoBehaviour:
   m_ObjectHideFlags: 0

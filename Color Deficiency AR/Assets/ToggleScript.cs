@@ -16,7 +16,7 @@ public class ToggleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Graphics.Blit(null, m_MyRenderTexture, m_ARBackgroundCamera.material);
     }
 
     void toggleColor()
