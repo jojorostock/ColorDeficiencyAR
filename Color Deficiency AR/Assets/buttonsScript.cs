@@ -28,20 +28,20 @@ public class buttonsScript : MonoBehaviour
     void redColor()
     {
         Image pan = GetComponent<Image>();
-        pan.color = new Color(255,0, 0, .4f);
+        pan.color = new Color(255,0, 0, .3f);
 
     }
 
     void blueColor()
     {
         Image pan = GetComponent<Image>();
-        pan.color = new Color(0, 0,255, .4f);
+        pan.color = new Color(0, 0,255, .3f);
 
     }
 
     void greenColor()
     {
         Image pan = GetComponent<Image>();
-        pan.color = new Color(0,255,0, .4f);
+        pan.color = new Color(0,255,0, .3f);
     }
 }
