@@ -36,12 +36,12 @@ public class buttonsScript : MonoBehaviour
     {
         disableToggles();
         Image pan = GetComponent<Image>();
-        if (pan.color == new Color(255, 0, 0, .4f))
+        if (pan.color == new Color(255, 0, 0, .3f))
         {
             pan.color = new Color(255, 255, 255, 0f);
         }
         else {
-            pan.color = new Color(255, 0, 0, .4f);
+            pan.color = new Color(255, 0, 0, .3f);
             red.GetComponent<Image>().color = new Color(255, 0, 0);
         }
     }
@@ -50,13 +50,13 @@ public class buttonsScript : MonoBehaviour
     {
         disableToggles();
         Image pan = GetComponent<Image>();
-        if (pan.color == new Color(0, 0, 255, .4f))
+        if (pan.color == new Color(0, 0, 255, .3f))
         {
             pan.color = new Color(255, 255, 255, 0f);
         }
         else
         {
-            pan.color = new Color(0, 0, 255, .4f);
+            pan.color = new Color(0, 0, 255, .3f);
             blue.GetComponent<Image>().color = new Color(0, 0, 255);
         }
     }
@@ -65,14 +65,14 @@ public class buttonsScript : MonoBehaviour
     {
         disableToggles();
         Image pan = GetComponent<Image>();
-        if (pan.color == new Color(0, 255, 0, .4f))
+        if (pan.color == new Color(0, 255, 0, .3f))
         {
             pan.color = new Color(255, 255, 255, 0f);
         }
         else
         {
-            pan.color = new Color(0, 255, 0, .4f);
+            pan.color = new Color(0, 255, 0, .3f);
             green.GetComponent<Image>().color = new Color(0, 255, 0);
         }
-    }
+   }
 }
